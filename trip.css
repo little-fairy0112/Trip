@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top{
+    height: 350px;
+    width: 100%;
+    background-image: url('pic/Hero.png');
+    background-size: 100% 100%;    
+}
+#top h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#top select{
+    display: block;
+    margin: auto;
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    width: 452px;
+    height: 45px;
+
+}
+
+#recommend{
+    width: 800px;
+    height: 112px;
+    background: white;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+}
+
+#recommend h1{
+    padding: 20px;
+}
+
+#recommend ul{
+    display: flex;
+    padding-left: 30px;
+}
+
+#recommend li{
+    color: white;
+    width: 130px;
+    height: 42px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 42px;
+}
+
+#first{
+    background: #8A82CC;
+    border-radius: 5px;
+}
+
+#first:active{
+    background: #7373B9;
+}
+
+#first:hover{
+    box-shadow:0 0 6px 3px #7373B9;
+}
+
+#second{
+    background: #FFA782;
+    border-radius: 5px;
+}
+
+#second:active{
+    background: #FF7575;
+}
+
+#second:hover{
+    box-shadow:0 0 6px 3px #FF7575;
+}
+
+#third{
+    background: #F5D005;
+    border-radius: 5px;
+}
+
+#third:active{
+    background: #EAC100;
+}
+
+#third:hover{
+    box-shadow:0 0 6px 3px #EAC100;
+}
+
+#forth{
+    background: #559AC8;
+    border-radius: 5px;
+}
+
+#forth:active{
+    background: #408080;
+}
+
+#forth:hover{
+    box-shadow:0 0 6px 3px #408080;
+}
+
+
+#content{
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+}
+
+#SearchZone{
+    font-size: 36px;
+    color: #8A82CC;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#content li{
+    list-style:none;
+    margin-left: 20px;
+    margin-top:10px;
+    width: 464px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+
+#bottom{
+    background-color: #559AC8;
+    height: 90px;
+    width: 100%;
+}
+
+#up{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#down{
+    color: #FFD366;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#title{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+#img{
+    position: relative;
+}
+
+#dataName{
+    font-size: 24px;
+    color: white;
+    padding-left:15px;
+}
+
+#dataZone{
+    font-size: 16px;
+    color: white;
+}
+
+#price{
+    color: green;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+#liContent{
+    padding-left: 20px;
+    position: relative;
+}
+
+.info{
+    padding-top: 2px;
+}
